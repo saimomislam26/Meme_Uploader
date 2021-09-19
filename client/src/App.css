@@ -1,0 +1,43 @@
+body{
+  color: rgb(214, 130, 26) !important;
+  background-color: rgb(159, 222, 224) !important;
+}
+
+.meme-head{
+  text-align: center;
+  background-image: linear-gradient(to left,rgb(158, 13, 158), indigo, green, blue, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.form-div{
+  box-shadow: 2px 2px 2px 2px black ;
+  width: auto;
+  height:auto
+}
+
+.show-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.author{
+  color: brown;
+}
+
+.meme:hover{
+  transform: scale(1.3);
+      transition: all .3s linear;
+}
+
+@media(max-width:620px){
+  .meme:hover{
+    transform: scale(1.1);
+        transition: all .3s linear;
+  }
+}
