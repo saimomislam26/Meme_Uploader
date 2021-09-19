@@ -123,6 +123,7 @@ const Add = () => {
                 loading ? (<div className="show-pic"><BeatLoader color={"#36D7B7"} loading={loading} size={100} /></div>)
                     :
 
+
                     (
 
                         <>
